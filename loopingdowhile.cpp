@@ -17,4 +17,8 @@ int main () {
         cout << "TI, Bilangan acak = " << x << endl;
         x = rand() % 10; //pengubah nilai x
     } while (x <= 5); //syarat
+    cout << "Bilangan acak do-while yang terakhir = " << x << endl;
+    cout << endl;
+
+    return 0;
 }
